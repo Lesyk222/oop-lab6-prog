@@ -1,12 +1,12 @@
 #pragma once
 
 #include "CElectricityConsumption.h"
+#include "CTariffs.h"
 #include <cmath>
 
-class CMultiZoneElectricityConsumption : public CElectricityConsumption
+class CMultiZoneElectricityConsumption : public CElectricityConsumption, public CTariffs
 {
  private:
-	double fixedPrice, nightPrice, peekPrice;
 	int fixedHours, nightHours, peekHours, startTime, endTime, time;
  public:
 	 CMultiZoneElectricityConsumption();
