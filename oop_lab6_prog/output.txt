@@ -1,0 +1,16 @@
+CElectricityConsumption
+Count of killowats: 5
+Cost: 8.4
+
+CSocialElectricityConsumption
+Count of killowats: 99
+Cost: 89.1
+
+CSocialElectricityConsumption
+Count of killowats: 101
+Cost: 169.68
+
+CMultiZoneElectricityConsumption
+Count of killowats: 100
+Cost: 152
+
